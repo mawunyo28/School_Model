@@ -15,6 +15,9 @@ add_library(School SHARED
   School_global.h
   school.cpp
   school.h
+  teacher.h teacher.cpp
+  school_class.h school_class.cpp
+  student.h student.cpp
 )
 
 target_link_libraries(School PRIVATE Qt${QT_VERSION_MAJOR}::Core)
